@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="4dp">
+
+    <!-- ID -->
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: 000000"
+        android:textColor="#1565C0"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Nombre -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <!-- Región y país -->
+    <TextView
+        android:id="@+id/tvRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Región, País"
+        android:textColor="#555555"/>
+</LinearLayout>

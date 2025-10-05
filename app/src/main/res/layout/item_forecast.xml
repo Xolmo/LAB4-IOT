@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background">
+
+    <TextView android:id="@+id/tvLocation" android:textStyle="bold" android:textSize="16sp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvDate" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/ivIcon" android:layout_width="48dp" android:layout_height="48dp" />
+    <TextView android:id="@+id/tvTempMax" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvTempMin" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvCondition" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvHumidity" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvUV" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_locations"
+        android:title="Locations"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        android:icon="@drawable/ic_location_on" />
+
+    <item
+        android:id="@+id/nav_pronostico"
+        android:title="Pronóstico"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        android:icon="@drawable/ic_cloud" />
+
+    <item
+        android:id="@+id/nav_futuro"
+        android:title="Futuro"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        android:icon="@drawable/ic_trending_up" />
+</menu>
